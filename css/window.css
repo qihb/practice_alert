@@ -1,0 +1,104 @@
+.window_boundingBox {
+	position: fixed;
+	border: 1px solid #000;
+	width: 500px;
+	height: 300px;
+	left: 50%;
+	background-color: #fff;
+	top: 100px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+// .window_boundingBox input {
+// 	position: absolute;
+// 	left: 50%;
+// 	bottom: 10px;
+// 	width: 100px;
+// 	margin-left: -50px;
+// }
+.window_header {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	font-size: 20px;
+}
+.window_body {
+	padding: 10px;
+}
+.window_closeBtn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 20px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+	padding: 5px 10px;
+
+}
+.window_footer {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+.window_cancelBtn {
+	margin-left: 20px;
+}
+.window_promptInputWrapper {
+	text-align: center;
+}
+// skin_a
+.window_skin_a {
+	position: fixed;
+	border: 7px solid #ccc;
+	width: 500px;
+	height: 300px;
+	left: 50%;
+	// margin-left: -250px;
+	top: 100px;
+	border-radius: 4px;
+	box-shadow: 0 0 0;
+}
+.window_skin_a .window_header {
+	background-color: red;
+	color: #fff;
+	text-align: left;
+	padding: 5px;
+	font-size: 20px;
+}
+.window_skin_a .window_closeBtn {
+	right: -16px;
+    top: -16px;
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    display: table-cell;
+    line-height: 38px;
+        // text-align: center;
+
+}
+.window_skin_a input {
+    position: absolute;
+    left: 80%;
+    bottom: 10px;
+    // width: 100px;
+    display: block;
+    height: 30px;
+    // width: 55px;
+    background-color: red;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.window_mask {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .3;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
