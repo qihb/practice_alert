@@ -7,6 +7,7 @@
 	background-color: #fff;
 	top: 100px;
 	box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+	z-index: 3;
 }
 // .window_boundingBox input {
 // 	position: absolute;
@@ -69,13 +70,13 @@
 	font-size: 20px;
 }
 .window_skin_a .window_closeBtn {
-	right: -16px;
-    top: -16px;
-    width: 38px;
-    height: 38px;
+	right: -13px;
+    top: -15px;
+    width: 13px;
+    height: 23px;
     border-radius: 19px;
     display: table-cell;
-    line-height: 38px;
+    line-height: 25px;
         // text-align: center;
 
 }
@@ -101,4 +102,5 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: 2;
 }
